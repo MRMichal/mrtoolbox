@@ -9,8 +9,6 @@ function mrdicom2matlab( inDir, outDir )
 
 % TODO % make it work when many patients have the same name!!!
 
-addpath(fullfile('..','mrtoolbox'))
-
 myDirs=get_all_dirs(inDir);
 
 tic
